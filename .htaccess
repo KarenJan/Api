@@ -1,0 +1,11 @@
+RewriteEngine on
+AddDefaultCharset UTF-8
+
+#RewriteCond %{HTTP_HOST} ^mylivekit.com
+#RewriteRule (.*) http://www.mylivekit.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+DirectoryIndex resource/index.php
+RewriteRule ^(.*)$ resource/index.php [L]
