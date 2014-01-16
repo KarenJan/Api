@@ -1,0 +1,17 @@
+# ---- Bootstrap ----
+*~
+resource/css/application/*
+resource/js/application/*
+resource/fonts*
+# ---- File storage ----
+resource/media/*
+# ---- Configuration files ----
+.htaccess
+# ---- Backend directories ----
+backend/Application/Modules/*
+backend/Application/Models/*
+backend/Application/Layouts/*
+backend/Application/Messages/*
+backend/Application/Settings/*
+backend/Application/Themes/*
+backend/Application/Widgets/*

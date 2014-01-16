@@ -1,0 +1,30 @@
+#tilesSeparator
+{
+	height:5px;
+}
+/**
+ * Grid container
+ */
+#tiles {
+	display:block;	
+	list-style-type: none;
+	position: relative; /** Needed to ensure items are laid out relative to this container **/
+	padding: 0px;
+}
+
+/**
+ * Grid items
+ */
+#tiles li {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#tiles li:hover {
+	box-shadow:0px 0px 10px #999;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
